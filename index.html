@@ -63,8 +63,7 @@
     if (finished) return;
 
     const now = getFinlandNow();
-    const target = new Date(now);
-    target.setHours(19, 0, 0, 0);
+    const target = new Date("2026-02-04T19:00:00");
 
     let diff = target - now;
 
